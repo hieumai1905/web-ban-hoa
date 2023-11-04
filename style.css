@@ -1,0 +1,123 @@
+body, html {
+    margin-left: 5%;
+    padding: 0;
+    height: 90%;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.sidebar {
+    border-right: 2px dashed #009966;
+    padding: 20px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.sidebar ul, .image-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar ul li:last-child {
+    margin-bottom: 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.sidebar ul li img {
+    display: block;
+}
+
+.image-container {
+    margin-top: 100px;
+    margin-left: 19px;
+    margin-bottom: -21px;
+
+}
+
+.image-container table {
+    border-collapse: collapse;
+}
+
+.image-container .image-row {
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container .image-cell {
+    line-height: 0;
+    margin: 0;
+}
+
+.image-container .image-top {
+    margin-bottom: -3px;
+}
+
+.img-logo {
+    margin-left: -2px;
+}
+
+.content {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content .header {
+    margin-top: 35px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Tahoma, serif;
+}
+
+.image-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+p {
+    font-size: 11px;
+    font-family: Arial, serif;
+    margin-left: 30px;
+    max-width: 570px;
+}
+
+.align-right, span, select, .btn {
+    text-align: right;
+    font-size: 11px;
+    font-family: Tahoma, serif;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.tb-data {
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.image-right img {
+    margin-top: -120px;
+}
+
+.note {
+    font-size: 11px;
+    font-family: Arial, serif;
+    color: #FF0000;
+}
